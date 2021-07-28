@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Petshop.WEB", "Petshop_IFP\Petshop.WEB.csproj", "{7B2315BB-1D72-417A-BD6A-AC9593832815}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petshop.Aplicacao", "Petshop.Aplicacao\Petshop.Aplicacao.csproj", "{CDEE2175-CDA8-4503-B787-9EC713545EC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petshop.Dominio", "Petshop.Dominio\Petshop.Dominio.csproj", "{3DFD2426-4E58-4A59-AF3B-31DB9D9D9E53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petshop.Infra.Data", "Petshop.Infra.Data\Petshop.Infra.Data.csproj", "{73C63E42-A8BE-45A0-912D-5A61810C6182}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petshop.Infra.IoC", "Petshop.Infra.IoC\Petshop.Infra.IoC.csproj", "{95D9B575-8825-4A00-B355-78B6320DCE87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B2315BB-1D72-417A-BD6A-AC9593832815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B2315BB-1D72-417A-BD6A-AC9593832815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B2315BB-1D72-417A-BD6A-AC9593832815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B2315BB-1D72-417A-BD6A-AC9593832815}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDEE2175-CDA8-4503-B787-9EC713545EC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDEE2175-CDA8-4503-B787-9EC713545EC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDEE2175-CDA8-4503-B787-9EC713545EC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDEE2175-CDA8-4503-B787-9EC713545EC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DFD2426-4E58-4A59-AF3B-31DB9D9D9E53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DFD2426-4E58-4A59-AF3B-31DB9D9D9E53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DFD2426-4E58-4A59-AF3B-31DB9D9D9E53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DFD2426-4E58-4A59-AF3B-31DB9D9D9E53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73C63E42-A8BE-45A0-912D-5A61810C6182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73C63E42-A8BE-45A0-912D-5A61810C6182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73C63E42-A8BE-45A0-912D-5A61810C6182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73C63E42-A8BE-45A0-912D-5A61810C6182}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95D9B575-8825-4A00-B355-78B6320DCE87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95D9B575-8825-4A00-B355-78B6320DCE87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95D9B575-8825-4A00-B355-78B6320DCE87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95D9B575-8825-4A00-B355-78B6320DCE87}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8D8E98B-C9DB-4A01-9070-D669BD5B53AA}
+	EndGlobalSection
+EndGlobal

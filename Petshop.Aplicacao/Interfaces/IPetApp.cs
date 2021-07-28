@@ -3,7 +3,7 @@ using Petshop.Dominio.Entidades;
 
 namespace Petshop.Aplicacao.Interfaces
 {
-    public interface IPetApp : IAppBase<Pet, PetshopDTO>
+    public interface IPetApp : IAppBase<Pet, PetDTO>
     {
 
     }

@@ -4,4 +4,14 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Petshop.Aplicacao\Petshop.Aplicacao.csproj" />
+    <ProjectReference Include="..\Petshop.Dominio\Petshop.Dominio.csproj" />
+    <ProjectReference Include="..\Petshop.Infra.Data\Petshop.Infra.Data.csproj" />
+  </ItemGroup>
+
 </Project>

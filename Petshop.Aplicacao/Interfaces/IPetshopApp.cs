@@ -7,7 +7,7 @@ using System.Text;
 
 namespace Petshop.Aplicacao.Interfaces
 {
-    public interface IPetshopApp : IAppBase<Petshop, PetshopDTO>
+    public interface IPetshopApp : IAppBase<Dominio.Entidades.Petshop, PetshopDTO>
     {
 
     }

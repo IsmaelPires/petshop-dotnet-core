@@ -8,7 +8,7 @@ using System.Text;
 
 namespace Petshop.Dominio.Servicos
 {
-    public class PetshopServico : ServicoBase<Petshop>, IPetshopServico
+    public class PetshopServico : ServicoBase<Dominio.Entidades.Petshop>, IPetshopServico
     {
         public PetshopServico(IPetshopRepositorio repositorio)
             : base(repositorio)

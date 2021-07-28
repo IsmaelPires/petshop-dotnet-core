@@ -12,9 +12,9 @@ namespace Petshop.Aplicacao
     {
         public MappingEntidade()
         {
-            CreateMap<Petshop, PetshopDTO>();
+            CreateMap<Dominio.Entidades.Petshop, PetshopDTO>();
 
-            CreateMap<Petshop, PetDTO>();
+            CreateMap<Pet, PetDTO>();
         }
     }
 }

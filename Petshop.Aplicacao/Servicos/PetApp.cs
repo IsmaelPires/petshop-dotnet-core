@@ -12,9 +12,9 @@ using System.Text;
 
 namespace Petshop.Aplicacao.Servicos
 {
-    public class PetshopApp : ServicoAppBase<Dominio.Entidades.Petshop, PetshopDTO>, IPetshopApp
+    public class PetApp : ServicoAppBase<Pet, PetDTO>, IPetApp
 {
-        public PetshopApp(IMapper iMapper, IPetshopServico servico)
+        public PetApp(IMapper iMapper, IPetServico servico)
             : base(iMapper, servico)
         {
 

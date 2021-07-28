@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Petshop.Dominio.Interfaces.Repositorios
 {
-    public interface IPetshopRepositorio : IRepositorioBase<Petshop>
+    public interface IPetshopRepositorio : IRepositorioBase<Dominio.Entidades.Petshop>
     {
     }
 }

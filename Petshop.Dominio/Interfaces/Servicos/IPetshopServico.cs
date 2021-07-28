@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Petshop.Dominio.Interfaces.Servicos
 {
-    public interface IPetshopServico : IServicoBase<Petshop>
+    public interface IPetshopServico : IServicoBase<Dominio.Entidades.Petshop>
     {
     }
 }
